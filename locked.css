@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.lock {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+p {
+  color: #aaa;
+}
