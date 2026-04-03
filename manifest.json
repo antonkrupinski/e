@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Council Rock Lock",
+  "version": "1.0",
+  "description": "Shows a lock icon only on Council Rock Canvas.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "https://councilrock.instructure.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
